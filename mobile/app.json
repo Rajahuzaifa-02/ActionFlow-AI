@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ActionFlow AI",
+    "slug": "actionflow-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "actionflow",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e0e1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.actionflow.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0e0e1a"
+      },
+      "package": "com.actionflow.ai"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "web": {},
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f3325b96-7af4-4420-843e-6bff2b7cdcf1"
+      }
+    }
+  }
+}

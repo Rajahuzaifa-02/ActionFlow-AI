@@ -1,0 +1,6 @@
+- `[x]` Update `mobile/app/index.jsx` to use cross-platform `useWindowDimensions` and responsive elements.
+- `[x]` Add the server connection status bar in `mobile/app/index.jsx`.
+- `[x]` Implement active auto-routing to `/results` on execution completion for mobile.
+- `[x]` Update `mobile/app/results.jsx` to make standard result elements (Before/After state, impacts, and cascading grids) responsive.
+- `[x]` Verify that the mobile app starts and executes successfully without crashes.
+- `[x]` Implement premium updates to look stunning and flexible (Interactive Presets filter, Debugger log filter tabs, active stage indicator).

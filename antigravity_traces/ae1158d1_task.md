@@ -1,0 +1,9 @@
+- `[x]` Add real SSE streaming to `mobile/services/api.js`
+- `[x]` Hide duplicate Expo Router header in `_layout.jsx`
+- `[x]` Rewrite `index.jsx` with real SSE pipeline, no status bar, exact footer, Key Facts column
+- `[x]` Add insight meta tags (type/severity/confidence/category)
+- `[x]` Add Captured At timestamps to Before/After panels
+- `[x]` Fix pipeline dots to use real stageStatus object + ✓/✕ icons
+- `[x]` Fix trace log to display real SSE events (timestamp, stageName, message)
+- `[x]` Fix getAgentColor to use stage keys
+- `[x]` Verify both servers healthy (3001 ✓, 8081 ✓)

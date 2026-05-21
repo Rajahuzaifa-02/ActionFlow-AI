@@ -1,0 +1,17 @@
+{
+  "name": "actionflow-ai",
+  "version": "1.0.0",
+  "description": "Autonomous Content-to-Action Agent - Insight to Action System powered by Google Antigravity",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run web\"",
+    "server": "cd server && npm run dev",
+    "web": "cd web && npm run dev",
+    "mobile": "cd mobile && npx expo start",
+    "install:all": "npm install && cd server && npm install && cd ../web && npm install",
+    "build": "cd web && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
